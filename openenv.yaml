@@ -1,0 +1,8 @@
+name: reminder-env
+description: AI environment for optimizing reminder timing based on user profile and context
+
+entrypoint: inference.py
+
+api:
+  reset: reset
+  step: step
